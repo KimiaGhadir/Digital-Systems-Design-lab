@@ -1,0 +1,22 @@
+# ModelSim
+work/
+*.mpf
+*.mti
+*.log
+transcript
+
+# Quartus
+db/
+incremental_db/
+*.qws
+*.qdf
+*.qpf.bak
+
+# Temporary files
+*.tmp
+*.bak
+*.swp
+
+# OS files
+.DS_Store
+Thumbs.db
