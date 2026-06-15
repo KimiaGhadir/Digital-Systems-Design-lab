@@ -1,4 +1,29 @@
-# ModelSim & Simulation
+# --- Quartus II / Prime Specific ---
+db/
+incremental_db/
+output_files/
+greybox_tmp/
+hc_output/
+
+simulation/
+
+*.rpt
+*.smsg
+*.summary
+*.done
+*.jdi
+*.pin
+*.qws
+*.bak
+*.txt
+*.vmo
+
+*.sof
+*.pof
+*.ttf
+*.rbf
+
+# --- ModelSim Specific ---
 work/
 rtl_work/
 *.mpf
@@ -8,34 +33,7 @@ transcript
 vsim.wlf
 *.vstf
 
-# Quartus II / Prime
-db/
-incremental_db/
-simulation/
-greybox_tmp/
-hc_output/
-*.qws
-*.qdf
-*.qpf.bak
-*.qsf.bak
-*.jdi
-*.pin
-*.done
-*.summary
-*.rpt
-*.smsg
-*.txt
-*.vmo
-
-# Compilation outputs
-*.sof
-*.pof
-*.ttf
-*.rbf
-
-# Temporary and OS files
-*.tmp
-*.bak
-*.swp
+# --- OS Specific ---
 .DS_Store
 Thumbs.db
+*.tmp
