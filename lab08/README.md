@@ -1,16 +1,14 @@
 # Lab 01 – Combinational Circuit Design
 
 ## Objective
-The goal of this experiment is to design and implement basic combinational logic circuits using schematic design tools.
+The objective of this experiment is to design basic combinational logic circuits using schematic design tools in Quartus.
 
 ## Description
-In this experiment, combinational logic circuits are designed and verified through simulation to ensure correct logical functionality.
+In this experiment, combinational circuits are designed using schematic diagrams in Quartus. The circuits are then compiled and simulated to verify their correct logical behavior.
 
 ## Repository Structure
-src/    -> Verilog source files  
-tb/     -> Testbench files for simulation  
-report/ -> Laboratory report
+schematic/ -> Quartus schematic design files
+report/    -> Laboratory report
 
 ## Tools
-Verilog HDL  
-ModelSim
+Intel Quartus Prime
