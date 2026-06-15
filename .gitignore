@@ -1,22 +1,41 @@
-# ModelSim
+# ModelSim & Simulation
 work/
+rtl_work/
 *.mpf
 *.mti
 *.log
 transcript
+vsim.wlf
+*.vstf
 
-# Quartus
+# Quartus II / Prime
 db/
 incremental_db/
+simulation/
+greybox_tmp/
+hc_output/
 *.qws
 *.qdf
 *.qpf.bak
+*.qsf.bak
+*.jdi
+*.pin
+*.done
+*.summary
+*.rpt
+*.smsg
+*.txt
+*.vmo
 
-# Temporary files
+# Compilation outputs
+*.sof
+*.pof
+*.ttf
+*.rbf
+
+# Temporary and OS files
 *.tmp
 *.bak
 *.swp
-
-# OS files
 .DS_Store
 Thumbs.db
